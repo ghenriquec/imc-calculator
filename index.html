@@ -4,8 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proffy | Sua plataforma de estudos online</title>
+    <title>Calculadora IMC</title>
     <script src="https://kit.fontawesome.com/c0078485ae.js" crossorigin="anonymous"></script>
+    <script src="./src/js/script.js"></script>
     <link rel="stylesheet" href="./src/styles/partials/landing-page.css">
     <link rel="stylesheet" href="./src/styles/main.css">
     <link rel="shortcut icon" href="./crud/images/favicon.png" type="image/png">
@@ -28,7 +29,7 @@
 
       <div class="field">
         <label for="name">Nome</label>
-        <input type="text" name="titulo" id="name">
+        <input type="text" id="namePacient">
       </div>
 
       <div class="field-group">
@@ -36,27 +37,27 @@
         <div class="field">
 
           <label for="categoryName">Altura</label>
-          <input type="text" name="categoria" id="height" required>
+          <input type="number" id="height" required>
 
         </div>
 
         <div class="field">
 
           <label for="weight">Peso</label>
-          <input type="text" name="duracao" id="" required>
+          <input type="number" id="weight" required>
 
         </div>
 
       </div>
 
+      
+      <button type="button" id="calculate" value="calculate">Calcular</button>
       <div class="field-group" id="result"></div>
-      <button type="submit">Cadastrar curso</button>
     </fieldset>
+    <footer>
+      <p class="copyright">&copy; Copyright 2021, Guilherme Henrique Coelho. All rights reserved.</p>
+    </footer>
   </div>
-  
 </div>
-
-<footer></footer>
 </body>
-
 </html>

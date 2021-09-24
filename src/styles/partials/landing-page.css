@@ -394,7 +394,8 @@ a {
     border: 0;
     transition: background-color 400ms;
     border-radius: 8px;
-    margin-top: 20px;
+    margin-top: -12px;
+    margin-bottom: 25px;
 }
 
 .container button:hover {
@@ -450,4 +451,9 @@ a {
         box-sizing: border-box;
         user-select: none;
         text-align: justify;
+}
+
+.copyright{
+    margin-top: 20px;
+    color: #fff;
 }

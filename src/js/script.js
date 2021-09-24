@@ -1,8 +1,11 @@
+const calculate = document.getElementById('calculate');
+
+const name = document.getElementById('namePacient');
+const weight = document.getElementById('weight');
+const height = document.getElementById('height');
+
+const result = document.getElementById('result');
 const inputs = document.querySelectorAll(".input");
-const name = document.getElementById('name');
-const weight = document.getElementById('weight').value;
-const height = document.getElementById('height').value;
-const resultIMC = document.getElementById('result').value;
 
 const focusFunx = () => {
   let parent = this.parentNode.parentNode;
@@ -10,18 +13,13 @@ const focusFunx = () => {
 };
 
 const calculateIMC = () => {
-  if(name.value !== '' && weight.value !== '' && height.value !== ''){
+  if(namePacient !== '' && weight.value !== '' && height.value !== ''){
     const resultIMC = (parseFloat(weight.value) / parseFloat(height.value ** 2) ).toFixed(1)
-    if(resultIMC >= 16.0 && resultIMC <= 16.9){
-      const messageReturn = "Muito abaixo do peso"
+    if(resultIMC < 18.5 ){
+      const messageReturn = "Magreza"
       result.textContent = "Seu IMC é" + resultIMC
-      result.textContent = "Você está " + messageReturn
+      result.textContent = "Você está em situação de " + messageReturn
       result.textContent = "Procure um médico para receber mais orientaçoes"
-  }else if(resultIMC >= 17.0 && resultImc <= 18.4){
-      const messageReturn = "Abaixo do peso"
-      result.textContent = "Seu IMC é" + resultIMC
-      result.textContent = "Você está " + messageReturn
-      result.textContent = "Consulte um médico mais proximo para receber mais orientaçoes"
   }else if (resultIMC >= 18.5 && resultIMC <= 24.9){
       const messageReturn = "Peso Normal"
       result.textContent = "Seu IMC é" + resultIMC
@@ -56,4 +54,4 @@ inputs.forEach((input) => {
   input.addEventListener("focus", focusFunx);
 });
 
-calculateIMC.addEventListener("click", calculateIMC)
+calculate.addEventListener("click", calculateIMC)
