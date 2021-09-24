@@ -1,14 +1,15 @@
 const inputs = document.querySelectorAll(".input");
-const weight = document.getElementById("weight");
-const height = document.getElementById("height");
-const name = document.getElementById("name");
+const name = document.getElementById('name');
+const weight = document.getElementById('weight').value;
+const height = document.getElementById('height').value;
+const resultIMC = document.getElementById('result').value;
 
-function focusFunx() {
+const focusFunx = () => {
   let parent = this.parentNode.parentNode;
   parent.classList.add("focus");
-}
+};
 
-function calculateIMC(){
+const calculateIMC = () => {
   if(name.value !== '' && weight.value !== '' && height.value !== ''){
     const resultIMC = (parseFloat(weight.value) / parseFloat(height.value ** 2) ).toFixed(1)
     if(resultIMC >= 16.0 && resultIMC <= 16.9){
