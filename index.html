@@ -9,7 +9,9 @@
     <script src="./src/js/script.js" defer></script>
     <link rel="stylesheet" href="./src/styles/partials/landing-page.css">
     <link rel="stylesheet" href="./src/styles/main.css">
-
+    <link rel="shortcut icon" href="src/images/favicon/healthcare.png" type="image/x-icon">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.com/libraries/jquery.mask"></script>
 </head>
 
 <body> 
@@ -22,13 +24,13 @@
 
       <legend>
 
-        <h2>Dados do paciente</h2>
+        <h2>Dados Do Paciente</h2>
 
       </legend>
 
       <div class="field">
         <label for="name">Nome</label>
-        <input type="text" id="namePacient">
+        <input type="text" id="namePacient" required>
       </div>
 
       <div class="field-group">
@@ -46,7 +48,6 @@
           <input type="number" id="weightPacient" required>
 
         </div>
-
       </div>
 
       
