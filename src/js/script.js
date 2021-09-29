@@ -34,10 +34,10 @@ let calculateIMC = () => {
     let resultIMC = (parseFloat(weightPacient.value) / parseFloat(heightPacient.value ** 2)).toFixed(1)
     if(resultIMC < 18.5 ){
       const messageReturn = "magreza"
-      result.textContent = `${namePacient.value} seu IMC é de  ${resultIMC} e você está em situação de  ${messageReturn}. Procure um médico para receber mais orientaçoes!`
+      result.textContent = `${namePacient.value} seu IMC é de  ${resultIMC} e você está em situação de ${messageReturn}. Procure um médico para receber mais orientaçoes!`
   }else if (resultIMC >= 18.5 && resultIMC <= 24.9){
-      const messageReturn = "peso normal"
-      result.textContent = `${namePacient.value} seu IMC é de  ${resultIMC}  e você está com  ${messageReturn}` 
+      const messageReturn = "peso ideal"
+      result.textContent = `${namePacient.value} seu IMC é de  ${resultIMC}  e você está com seu ${messageReturn}` 
   } else if (resultIMC >= 25.0 && resultIMC <= 29.9){
       const messageReturn = "acima do peso"
       result.textContent = `${namePacient.value} seu IMC é de ${resultIMC}  e você está  ${messageReturn} Procure um médico para receber mais orientaçoes!` 

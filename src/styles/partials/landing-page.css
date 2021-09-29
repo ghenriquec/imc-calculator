@@ -412,6 +412,10 @@ a {
     margin-bottom: 25px;
     margin-left: 85px;
 }
+.container #clean:hover{
+    background: var(--color-primary-lighter);
+}
+
 .container button:hover {
     background: var(--color-primary-lighter);
 }
