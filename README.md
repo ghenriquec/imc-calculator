@@ -1,8 +1,4 @@
 <h1 align="center">
-    <img alt="Ecoleta" title="#Ecoleta" src="./assets/banner.png" />
-</h1>
-
-<h1 align="center">
     <a href="#"> BMI CALCULATOR </a>
 </h1>
 
@@ -15,8 +11,16 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/ghenriquec/imc-calculator">
 
-  <a href="https://www.twitter.com/tgmarinho/">
-    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Ftgmarinho%2FREADME-ecoleta">
+# Body Mass Index Calculator
+In this project, based on the name, age and height of the user, the body mass index is calculated and the weight range is assessed.💚
+
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ghenriquec/imc-calculator?color=%2304D361">
+
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ghenriquec/imc-calculator">
+
+  <a href="https://www.twitter.com/ghhc_/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fghenriquec%2Fimc-calculator">
   </a>
   
   <a href="https://github.com/ghenriquec/imc-calculator/commits/master">
@@ -25,7 +29,7 @@
     
    <img alt="License" src="https://img.shields.io/badge/license-MIT-brightgreen">
    <a href="https://github.com/ghenriquec/imc-calculator/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/tghenriquec/imc-calculator?style=social">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/ghenriquec/imc-calculator?style=social">
   </a>
 </p>
 
@@ -36,8 +40,6 @@
 
 <p align="center">
  <a href="#about">About</a> •
- <a href="#features">Features</a> •
- <a href="#layout">Layout</a> • 
  <a href="#how-it-works">How it works</a> • 
  <a href="#tech-stack">Tech Stack</a> • 
  <a href="#contributors">Contributors</a> • 
@@ -56,7 +58,7 @@
 ## How it works
 
 Before you begin, you will need to have the following tools installed on your machine:
-[Git] (https://git-scm.com), [Node.js] (https://nodejs.org/en/).
+[Git] (https://git-scm.com).
 In addition, it is good to have an editor to work with the code like [VSCode] (https://code.visualstudio.com/)
 
 
@@ -117,5 +119,6 @@ The following tools were used in the construction of the project:
 This project is under the license [MIT](./LICENSE).
 
 Made with love by Guilherme Henrique 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ghenriquec/)
+</p>
 
----
+
