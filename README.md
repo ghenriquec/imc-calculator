@@ -42,7 +42,6 @@ In this project, based on the name, age and height of the user, the body mass in
  <a href="#about">About</a> •
  <a href="#how-it-works">How it works</a> • 
  <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contribute">Contribute</a> • 
  <a href="#author">Author</a> • 
  <a href="#user-content-license">License</a>
 
