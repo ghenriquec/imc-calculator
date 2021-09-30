@@ -42,7 +42,7 @@ In this project, based on the name, age and height of the user, the body mass in
  <a href="#about">About</a> •
  <a href="#how-it-works">How it works</a> • 
  <a href="#tech-stack">Tech Stack</a> • 
- <a href="#contributors">Contributors</a> • 
+ <a href="#contribute">Contribute</a> • 
  <a href="#author">Author</a> • 
  <a href="#user-content-license">License</a>
 
@@ -104,7 +104,6 @@ The following tools were used in the construction of the project:
 ## Author
 
 <a href="github.com/ghenriquec">
- <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/77681598?v=4" width="100px;" alt="Guilherme Henrique"/>
  <br />
  <sub><b>Guilherme Henrique Coelho Santos</b></sub></a>
  <br />
