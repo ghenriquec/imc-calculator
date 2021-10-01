@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="#"> BMI CALCULATOR </a>
+    <a href="https://ghenriquec.github.io/imc-calculator/"> BMI CALCULATOR </a>
 </h1>
 
 <h3 align="center">
