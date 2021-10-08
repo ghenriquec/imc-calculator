@@ -1,5 +1,5 @@
 <h1 align="center">
-    <a href="#"> BMI CALCULATOR </a>
+    <a href="https://ghenriquec.github.io/imc-calculator/"> BMI CALCULATOR </a>
 </h1>
 
 <h3 align="center">
@@ -108,8 +108,6 @@ The following tools were used in the construction of the project:
 ---
 
 ## License
-
-This project is under the license [MIT](./LICENSE).
 
 Made with love by Guilherme Henrique 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ghenriquec/)
 </p>
