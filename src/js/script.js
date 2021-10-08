@@ -1,8 +1,8 @@
 const calculate = document.getElementById('calculate');
 
-let name   = document.getElementById('namePacient').value;
-let weight = document.getElementById('weightPacient');
-let height = document.getElementById('heightPacient');
+const name   = document.getElementById('namePacient').value;
+const weight = document.getElementById('weightPacient');
+const height = document.getElementById('heightPacient');
 
 let result = document.getElementById('result');
 let inputs = document.querySelectorAll(".input");
