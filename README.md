@@ -111,5 +111,3 @@ The following tools were used in the construction of the project:
 
 Made with love by Guilherme Henrique 👋🏽 [Get in Touch!](https://www.linkedin.com/in/ghenriquec/)
 </p>
-
-
