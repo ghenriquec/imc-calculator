@@ -6,11 +6,6 @@
     Calculate your BMI and know which range you are on!
 </h3>
 
-<p align="center">
-  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/ghenriquec/imc-calculator?color=%2304D361">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/ghenriquec/imc-calculator">
-
 # Body Mass Index Calculator
 In this project, based on the name, age and height of the user, the body mass index is calculated and the weight range is assessed.💚
 
